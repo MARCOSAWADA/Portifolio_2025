@@ -1,0 +1,28 @@
+CHAMAR UM SELECT DA CLASS PHP
+CONVERTER OS DADOS DO BANCO EM JSON
+
+JS + PHP
+
+/2025
+	├── /assets
+		├── /css
+			├── /form_modal.css
+		├── /js
+			├── /script2.js
+	├── /php
+		├── /api.php
+	index.html
+
+
+script do banco de dados
+create database async;
+
+create table formulario(
+	id int not null auto_increment primary key,
+    nome varchar(100),
+    email varchar(100),
+    assunto varchar(50),
+    mensagem varchar(250)
+);
+
+irei postar abaixo os conteudos da pasta 2025
